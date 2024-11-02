@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(50,50); */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(87, 157, 87);
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
+#ptop{
+    background-color: rgb(70, 121, 70);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 30%; 
+
+}
+.box{
+    background-color:white;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 15px 20px;
+    color: rgb(6, 92, 35);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    gap: 20px;
+}
+#pbtm {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+}
+
+.gola{
+    background-color: rgb(55, 116, 54);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.gola:hover{
+    background-color: rgb(19, 77, 19);
+    cursor: pointer;
+}
